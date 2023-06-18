@@ -163,19 +163,41 @@ int main(){
 
     //Inverted Numeric half Pyramid
 
+    // int n;
+    // cin >> n;
+
+    // for (int row = 0; row < n; row++)
+    // {
+    //     for (int col = 0 ; col < n-row; col++)
+    //     {
+    //         cout<<col+1;
+    //     }
+    //     cout<<endl;
+        
+    // }
+
+
+    //Holow Inverted Half Pyramid
+
     int n;
-    cin >> n;
+    cin>>n;
 
     for (int row = 0; row < n; row++)
     {
-        for (int col = 0 ; col < n-row; col++)
+        for (int col = 0; col < n; col++)
         {
-            cout<<col+1;
+            if (row == 0 || col == 0|| col == n-row-1)
+            {
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
         }
         cout<<endl;
         
     }
-
+    
 
     return 0;
 
