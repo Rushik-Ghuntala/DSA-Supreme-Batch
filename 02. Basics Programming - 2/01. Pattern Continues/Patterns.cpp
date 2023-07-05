@@ -264,13 +264,20 @@ int main(){
     
 
 
-    //Numeri Palidrome Pyramid------------------------------------------------------------
+    //Numeric Palidrome Pyramid------------------------------------------------------------
 
     // int n;
     // cin>>n;
 
     // for (int row = 0; row < n; row++)
     // {
+    //     //spaces
+    //     for (int col = 0; col < n-row-1; col++)
+    //     {
+    //         cout<<" ";
+    //     }
+        
+
     //     for (int col = 0; col < row+1; col++)
     //     {
     //         cout<< col+1;
@@ -319,23 +326,104 @@ int main(){
 
     //Floyd's Pyramid------------------------------------------------------------
 
-    int n;
-    cin>>n;
-    int count = 1;
-    for (int row = 0; row < n; row++)
-    {
-        for (int col = 0; col < row+1; col++)
-        {
-            cout<<"|"<<count<<"|";
-            count++;
-        }
-        cout<<endl;
-    }
-    
-    
+    // int n;
+    // cin>>n;
+    // int count = 1;
+    // for (int row = 0; row < n; row++)
+    // {
+    //     for (int col = 0; col < row+1; col++)
+    //     {
+    //         cout<<"|"<<count<<"|";
+    //         count++;
+    //     }
+    //     cout<<endl;
+    // }
     
 
 
+    //Numeric Pyramid
+
+    // int n;
+    // cin>>n;
+
+    // for (int row = 0; row < n; row++)
+    // {
+
+    //     //row+1 se start krna hain
+    //     int start = row+1;
+    //     for (int col = 0; col < row+1; col++)
+    //     {
+    //         // cout<< row+col+1;
+    //         cout<<start;
+    //         start++;
+    //     }
+    //     cout<<endl;
+    // }
+    
+    
+    
+    //Numeric Full Pyramid
+
+    // int n;
+    // cin>>n;
+
+    // for (int row = 0; row < n; row++)
+    // {
+    //     //Spaces
+    //     for (int col = 0; col < n-row-1; col++)
+    //     {
+    //         cout<<" ";
+    //     }
+        
+
+    //     //numbers
+    //     for (int col = 0; col < row+1; col++)
+    //     {
+    //         cout<<row+col+1;
+    //     }
+
+    //     //reverse counting
+    //     int start = 2*row;
+    //     for (int col = 0; col< row; col++)
+    //     {
+    //         cout<<start;
+    //         start--;
+    //     }
+    //     cout<<endl;
+        
+    // }
+    
+
+
+    //Numeric Hollow Pyramid
+
+    // int n;
+    // cin>>n;
+
+    // for (int row = 0; row < n; row++)
+    // {
+    //     // Spaces
+    //     for (int col = 0; col < n-row-1; col++)
+    //     {
+    //         cout<<" ";
+    //     }
+
+
+    //     for (int col = 0; col < row+1; col++)
+    //     {
+    //         if ( col == 0 || row == n )
+    //         {
+    //             cout<<col+1;
+    //         }
+    //         else{
+    //             cout<<" ";
+    //         }
+            
+            
+    //     }
+    //     cout<<endl;
+    // }
+    
  
 
 
