@@ -7,6 +7,7 @@ int setKthBit(int N, int K)
     {
         // Write Your Code here
         int mask = 1 << K;
+        cout << "mask: "<<endl;
         int ans = N | mask;
         return ans;
     }

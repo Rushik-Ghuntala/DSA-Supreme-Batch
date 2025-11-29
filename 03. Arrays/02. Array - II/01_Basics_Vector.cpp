@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
 //printing function
@@ -17,6 +18,8 @@ int main(){
     // vector<int> arr;
     // vector<int> arr(5);
     vector<int> arr(5,0);
+    cout<<arr.size()<<endl;
+    cout<<arr.capacity()<<endl;
 
     //insertion
     arr.push_back(1);

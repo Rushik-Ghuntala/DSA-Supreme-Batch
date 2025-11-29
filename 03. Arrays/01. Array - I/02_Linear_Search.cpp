@@ -17,7 +17,11 @@ bool linear(int arr[], int size, int key){
 int main(){
 
     int arr[]={1,2,3,4,5,6,7,8,9,0};
+    cout << "sizeof(arr): " << sizeof(arr) << endl;
+    cout << "sizeof(int): " << sizeof(int) << endl;
+
     int size=sizeof(arr)/sizeof(int);
+    cout << "Size: " << size << endl;
 
     int found = linear(arr,size,9);
 

@@ -18,6 +18,7 @@ int main(){
     second-> data = 3;
     second -> next = NULL;
 
+    cout << "hello world" << endl;
 
 
     return 0;

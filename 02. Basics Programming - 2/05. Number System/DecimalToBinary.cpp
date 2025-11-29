@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 //Divison Method
@@ -9,9 +10,13 @@ int DecToBinary(int n){
 
     while (n>0)
     {
+        cout << " Befor Decimal: " << n << endl;
         int bit = n % 2;
+        cout << "bit: " << bit << endl;
         BinaryNo = bit * pow(10,i) + BinaryNo;
+        cout << "binary No: "<< BinaryNo << endl;
         n = n/2;
+        cout << " Afetr Decimal: " << n << endl;
         i++;
     }
     
